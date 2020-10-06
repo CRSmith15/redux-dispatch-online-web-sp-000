@@ -15,6 +15,7 @@ function dispatch(action){
 function render(){
   document.body.textContent = state.count
 }
+render()
 
 let state = {count: 0}
 let action = {type: 'INCREASE_COUNT'}
